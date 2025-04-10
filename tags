@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/rwsl/dyumnin/assignments/setup-Idkwat55/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+MODULE	tests/Makefile	/^MODULE = dut_test$/;"	m
+SIM	tests/Makefile	/^SIM ?= icarus$/;"	m
+TOPLEVEL	tests/Makefile	/^TOPLEVEL = dut$/;"	m
+TOPLEVEL_LANG	tests/Makefile	/^TOPLEVEL_LANG ?= verilog$/;"	m
+a	hdl/dut.v	/^    input  wire a,$/;"	p	module:dut
+assignment-xor	README.md	/^# assignment-xor$/;"	c
+b	hdl/dut.v	/^    input  wire b,$/;"	p	module:dut
+cvr	tests/dut_test.py	/^def cvr(x,y):$/;"	f
+dut	hdl/dut.v	/^module dut ($/;"	m
+dut_test	tests/dut_test.py	/^async def dut_test(dut):$/;"	f
+rnd	tests/dut_test.py	/^import random as rnd $/;"	I	nameref:module:random
+y	hdl/dut.v	/^    output wire y$/;"	p	module:dut
